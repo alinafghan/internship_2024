@@ -76,6 +76,8 @@ npm start
 
 ### Schema
 
+![image](https://github.com/user-attachments/assets/a8453ac0-d2f2-4d1c-85cc-bb52175ff75b)
+
 ### Development
 
 Backend: Make sure to follow Clean Architecture principles while adding features or fixing bugs.

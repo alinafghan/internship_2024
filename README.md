@@ -26,38 +26,58 @@ This project is a web application built with the following technologies:
    cd <repository-directory>
 
 2. Restore the dependencies:
-   ```bash
-      dotnet restore
+
+```bash
+dotnet restore
+
+```
 
 3.Update the database connection string in appsettings.json if necessary.
 
 4.Apply migrations to the database:
-  ```bash
-    dotnet ef database update
+
+```bash
+dotnet ef database update
+```
 
 5.Run the backend application:
-   ```bash
-   dotnet run
+
+```bash
+
+dotnet run
+
+```
 
 ### Frontend
 
-1.Navigate to the frontend directory 
+1.Navigate to the frontend directory 
+
 ```bash
+
 cd frontend
 
-2. install dependencies
+```
+
+2\. install dependencies
+
 ```bash
-npm install 
+
+npm install
+
+```
 
 3.start the frontend application
+
 ```bash
+
 npm start
 
+```
 
-##Schema
+### Schema
 
-##Development
+### Development
 
 Backend: Make sure to follow Clean Architecture principles while adding features or fixing bugs.
-Frontend: Use Shadcn components and Tailwind CSS for UI development. JavaScript config should be used for any frontend configurations.
 
+Frontend: Use Shadcn components and Tailwind CSS for UI development. JavaScript config should be used for any frontend configurations.

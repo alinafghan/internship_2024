@@ -26,7 +26,8 @@ This project is a web application built with the following technologies:
    cd <repository-directory>
 
 2. Restore the dependencies:
- dotnet restore
+   ```bash
+      dotnet restore
 
 
 3.Update the database connection string in appsettings.json if necessary.
